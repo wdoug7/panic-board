@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Status, HistoryEntry } from './types';
-import { checkUrlStatus } from './services/monitoringService';
-import { StatusDisplay } from './components/StatusDisplay';
-import { AnalyticsCard } from './components/AnalyticsCard';
-import { HistoryLog } from './components/HistoryLog';
-import { ClockIcon, CalendarDaysIcon, ShieldExclamationIcon } from './components/icons';
+import { checkUrlStatus } from './monitoringService';
+import { StatusDisplay } from './StatusDisplay';
+import { AnalyticsCard } from './AnalyticsCard';
+import { HistoryLog } from './HistoryLog';
+import { ClockIcon, CalendarDaysIcon, ShieldExclamationIcon } from './icons';
 
 const TARGET_URL = 'mconsultingprep.com';
 const CHECK_INTERVAL = 5000; // 5 seconds
