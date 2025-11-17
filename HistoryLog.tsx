@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { HistoryEntry, Status } from '../types';
+import { HistoryEntry, Status } from './types';
 import { CheckCircleIcon, XCircleIcon } from './icons';
 
 interface HistoryLogProps {
