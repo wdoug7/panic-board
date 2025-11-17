@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Status } from '../types';
+import { Status } from './types';
 import { CheckCircleIcon, XCircleIcon, ArrowPathIcon } from './icons';
 
 interface StatusDisplayProps {
