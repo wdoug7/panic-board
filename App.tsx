@@ -108,7 +108,7 @@ const App: React.FC = () => {
          <AnalyticsCard 
               icon={<ClockIcon className="w-6 h-6"/>} 
               title="Time Since Last Outage" 
-              value={timeSinceLastOutage}
+              value={displayDowntime}
               description = ""
             />
             <AnalyticsCard 
