@@ -105,11 +105,10 @@ const App: React.FC = () => {
               value={outageCount} 
               description="Number of times the site went offline."
             />
-            <AnalyticsCard 
+         <AnalyticsCard 
               icon={<ClockIcon className="w-6 h-6"/>} 
-              title="Total Downtime" 
-              value={displayDowntime}
-              description="Cumulative time the site was offline."
+              title="Time Since Last Outage" 
+              value={timeSinceLastOutage}
             />
             <AnalyticsCard 
               icon={<CalendarDaysIcon className="w-6 h-6"/>} 
