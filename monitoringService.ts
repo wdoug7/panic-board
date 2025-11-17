@@ -1,5 +1,5 @@
 
-import { Status } from '../types';
+import { Status } from './types';
 
 // This is a mock service. In a real-world scenario, this would be a backend
 // service that pings the URL to avoid CORS issues in the browser.
